@@ -62,6 +62,10 @@ elif operacao == "divisão":
         
 #O operador "!=" verifica se os valores são diferentes, evitando divisão por zero.
 
+# Caso a operação não seja válida, exibe uma mensagem de erro
+if operacao not in ["adição", "subtração", "multiplicacão", "divisão"]:
+    print("Operação inválida. Por favor, escolha uma operação válida.")
+
 
 
 
