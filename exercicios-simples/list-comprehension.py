@@ -15,7 +15,3 @@ print(numeros_filtrados)
 print(type(numeros_filtrados))  # Verifica o tipo da variável numeros_filtrados
 
 
-numeros_filtrados2 = [numero for numero in range(1, 202) if numero % 2 == 0 and numero % 6 ==0]
-type(numeros_filtrados2)  # Verifica o tipo da variável numeros_filtrados2
-print(numeros_filtrados2)
-print(type(numeros_filtrados2))  # Verifica o tipo da variável numeros_filtrados2

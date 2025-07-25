@@ -1,6 +1,10 @@
 # Exercício: Criar uma lista com números de 1 a 100 e imprimir apenas os números pares que são divisíveis por 4.
     # Criamos uma lista com os números de 1 até 100 usando a função range(x, y)
 
+"""primeiro criamos uma lista com números de 1 a 100
+depois, usamos um loop for para percorrer cad número da lista
+e verificamos se ele é par e divisível por 4."""
+
 # A função range(1, 101) gera números de 1 até 100 (o 101 não é incluído)
 numeros = list(range(1, 101))  # "=" é o operador de atribuição (atribui o valor à variável 'numeros')
 

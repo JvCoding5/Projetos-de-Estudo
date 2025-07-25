@@ -61,3 +61,7 @@ elif operacao == "divisão":
         print("Erro: Divisão por zero não é permitida.")
         
 #O operador "!=" verifica se os valores são diferentes, evitando divisão por zero.
+
+
+
+
