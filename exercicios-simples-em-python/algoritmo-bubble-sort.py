@@ -20,21 +20,21 @@ Fim
 # - bool: valores lógicos True ou False
 # - list: listas de valores (ex: ["Fogo", "Água", "Planta"])
 
-#Lista de números a serem ordenados
-
-lista = [64, 34, 25, 12, 22, 11, 90, 30, 45, 78, 56, 89, 23, 67, 88, 99, 100]
-
-
 # Em Python, def é uma palavra reservada usada para definir funções.
 def bubble_sort(arr):   
     n = len(arr)                        # Obtém o tamanho da lista
-    for i in range(n):                  # Loop para cada elemento na lista (17 números)
-        for j in range(0, n-i-1):       # Loop para comparar elementos adjacentes ()
+    for i in range(n):                  # Loop Externo, que repete o bloco 5 vezes, assumindo cada valor de i de 0 a n-1, ou seja 0=7, 1=5, 2=10, 3=6, 4=8
+        for j in range(0, n-i-1):       # Loop interno para comparar elementos adjacentes ()
             
                                         # Troca se o elemento encontrado for maior que o próximo
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]  # Troca os elementos
 
 
+#Lista de números a serem ordenados
 
+lista = [7, 5, 10, 6, 8]
+print("Lista original:", lista)  # Exibe a lista original
 
+bubble_sort(lista)  # Chama a função bubble_sort passando a lista como argumento
+print("Lista ordenada:", lista)  # Exibe a lista ordenada após a execução do algoritmo
