@@ -1,5 +1,5 @@
 #Esse é um exercício simples que implementa o algoritmo Bubble Sort para ordenar uma lista de números.
-    # A cada passagem, o maior elemento "flutua" para o final do array, como uma bolha, dando nome ao.
+# A cada passagem, o maior elemento "flutua" para o final do array, como uma bolha, dando nome ao.
 
 """Pseudocódigo: 
 Inicio
