@@ -4,7 +4,8 @@
 
 
 
-"""Pseudocódigo:
+"""
+Pseudocódigo:
 1. Solicitar ao jogador o tipo do Pokémon adversário (Fogo, Água ou Planta)
 2. Armazenar o tipo digitado, removendo espaços e padronizando com a primeira letra maiúscula
 3. Verificar se o tipo do adversário é válido (Fogo, Água ou Planta)
@@ -24,7 +25,8 @@
         → Contra Fogo: ataque é super eficaz
        → Contra Água ou Planta: ataque é pouco eficaz
 
-7. Se o tipo do Pokémon do jogador for inválido, exibir mensagem de erro"""
+7. Se o tipo do Pokémon do jogador for inválido, exibir mensagem de erro
+"""
 
 # Solicita ao jogador o tipo do Pokémon adversário
 tipo_adversario = input("Jogador, informe o tipo do Pokémon adversário (Fogo, Água ou Planta): ").strip().capitalize()

@@ -49,7 +49,7 @@ elif operacao == "subtração":
     resultado = numero1 - numero2
     print(f"O resultado da subtração é: {resultado}")
     
-elif operacao == "multiplicacão":
+elif operacao == "multiplicação":
     resultado = numero1 * numero2
     print(f"O resultado da multiplicação é: {resultado}")
     

@@ -38,3 +38,4 @@ print("Lista original:", lista)  # Exibe a lista original
 
 bubble_sort(lista)  # Chama a função bubble_sort passando a lista como argumento
 print("Lista ordenada:", lista)  # Exibe a lista ordenada após a execução do algoritmo
+

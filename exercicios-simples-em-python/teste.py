@@ -15,7 +15,7 @@
 # - None: valor nulo (sem valor definido)
 
 
-#In´ciio do programa
+#Início do programa
 
 print ("Olá, vamos dividir um número por 2!")
 
@@ -27,3 +27,4 @@ resultado = numero / 2
 
 #Exibindo o resultado
 print(f"O resultado da divisão de {numero} por 2 é: {resultado}")
+
