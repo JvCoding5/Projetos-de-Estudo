@@ -19,3 +19,4 @@ print('É maior?', maior_de_idade)
 
 print(type (nome)) 
 
+
