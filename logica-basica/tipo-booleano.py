@@ -1,5 +1,5 @@
 # Tipo de dado bool (boolean))
-# Ao questionar algo em UnboundLocalErrorsó existem duas respostas possíveis:
+# Ao questionar algo em UnboundLocalError só existem duas respostas possíveis:
 # # Verdadeiro (True) ou Falso (False).
 # Existem vários operadores para "questionar" algo em Python,
 # Dentre eles o ==, que é um operador lógico que 

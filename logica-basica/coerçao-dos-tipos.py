@@ -16,3 +16,4 @@ print(int('1') + 2) # soma de inteiro com inteiro
 
 # O interpretador execute o parenteses de dentro para fora: 
 # (terceiro (segundo (primeiro)) )
+

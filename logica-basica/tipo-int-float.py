@@ -19,7 +19,7 @@ print(0.0) #float
 
 # A função type mostra o tipo de dado de uma variável.
 print("O número 11 é do tipo:", type(11)) # <class 'int'>
-print("O número -11 é do tipo:", type(-'')) # <class 'int'>
+print("O número -11 é do tipo:", type('-')) # <class 'int'>
 
 
 #Class é um tipo de dado que define o comportamento de um objeto.
