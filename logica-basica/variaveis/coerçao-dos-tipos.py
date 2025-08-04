@@ -16,7 +16,7 @@ print('a' + 'b' + 'c') # concatenação de strings
 
 """print('1' + 2)"""  # concatenação de string com inteiro (erro)
 
-print(int('1'), type('1')) # converte string para inteiro
+print(type(int('1'))) # converte string para inteiro
 print(int('1') + 2) # soma de inteiro com inteiro
 
 # O interpretador execute o parenteses de dentro para fora: 
