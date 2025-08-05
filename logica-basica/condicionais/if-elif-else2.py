@@ -1,6 +1,8 @@
 # if / elif      / else
 # se / se não se / se não
 
+
+
 condicao1 = True
 condicao2 = True
 condicao3 = True
