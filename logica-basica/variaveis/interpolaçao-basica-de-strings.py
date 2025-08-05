@@ -21,8 +21,8 @@ variavel = '%s, o preço é R$%.2f' % (nome, preco)
 # Utilizamos % para definir o tipo da variável na string
 # E % (variável, variável) para declarar as variáveis na string
 
-inteiro =1
+inteiro =300000000000000000
 
 print(variavel)
-print('O hexadecimal de %d e %x' % (inteiro))
+print('O hexadecimal de %d e %x' % (inteiro, inteiro))
 
