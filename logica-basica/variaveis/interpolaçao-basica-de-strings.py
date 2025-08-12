@@ -26,3 +26,6 @@ inteiro =300000000000000000
 print(variavel)
 print('O hexadecimal de %d e %x' % (inteiro, inteiro))
 
+
+
+
