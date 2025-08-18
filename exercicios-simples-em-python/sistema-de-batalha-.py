@@ -9,6 +9,8 @@ se não exibir "escolha inválida
 
 
 """
+
+# --- Classes e Herança ---
 class Personagem:
     def __init__(self, nome, vida, ataque, defesa):
         self.nome = nome
@@ -60,6 +62,8 @@ class Arqueiro(Personagem):
         print(f"{self.nome} atirou flecha causando {dano} de dano em {alvo.nome}.")
         print(f"Vida de {alvo.nome}: {alvo.vida}\n")
 
+
+# --- Função ---
 def escolher_classe():
     while True:
         print("Escolha sua classe:")

@@ -31,7 +31,7 @@ print(f"x += 5 -> {x}")  # Saída: x += 5 -> 15
 
 # Subtração e atribuição
 x -= 3  # Equivalente a: x = x - 3
-print(f"x -= 3 -> {x}")  # Saída: x -= 3 -> 12
+print(f"o valor é x -= 3 -> {x}")  # Saída: x -= 3 -> 12
 
 # Multiplicação e atribuição
 x *= 2  # Equivalente a: x = x * 2
