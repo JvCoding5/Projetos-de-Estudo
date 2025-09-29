@@ -10,4 +10,4 @@ lista.append('João')
 indice = range(len(lista))
 
 for i in indice :
-    print ("Indíce: ",i,"Objeto:", lista[indice])
+    print ("Indíce: ",i,"Objeto:", lista[i])
