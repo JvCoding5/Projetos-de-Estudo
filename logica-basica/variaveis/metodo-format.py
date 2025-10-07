@@ -1,37 +1,30 @@
-#--- Método format ---
+# format_exemplos.py
+# Demonstração simples do método .format() no Python
 
-"""
-O método `format` é uma forma de formatar strings em Python,
-permitindo incluir placeholders `{}` que serão substituídos 
-por valores especificados.  
-"""
+# Exemplo 1 — básico
+nome = "Ana"
+idade = 25
+print("Meu nome é {} e eu tenho {} anos.".format(nome, idade))
 
+# Exemplo 2 — usando posições
+print("{1} tem {0} anos.".format(25, "Ana"))
 
-# Definindo variáveis
-a = 'AAAAA'
-b = 'BBBBBB'
-c = 1.1
+# Exemplo 3 — usando nomes
+print("Meu nome é {nome} e tenho {idade} anos.".format(nome="Ana", idade=25))
 
-# --- Definindo a string com placeholders ---
+# Exemplo 4 — formatando números
+valor = 1234.5678
+print("Valor formatado: {:.2f}".format(valor))   # 2 casas decimais
+print("Valor formatado: {:.0f}".format(valor))   # sem casas decimais (arredonda)
 
+# Exemplo 5 — alinhamento e espaçamento
+# {:>10} → alinha à direita com largura 10
+# {:<10} → alinha à esquerda com largura 10
+# {:^10} → centraliza com largura 10
+palavra = "Python"
+print("Direita : {:>10}".format(palavra))
+print("Esquerda: {:<10}".format(palavra))
+print("Centro  : {:^10}".format(palavra))
 
-# Os placeholders são definidos com chaves `{}` e podem ser preenchidos com valores
-string = 'b={nome2} a={nome1} a={nome1} c={nome3:.2f}'
-
-
-# O método format substitui os placeholders pelos valores correspondentes
-formato = string.format(nome1=a, nome2=b, nome3=c)
-print(formato)
-
-
-#---- Utilizando índices nos placeholders ---
-# É possível usar índices para referenciar os valores na ordem em que foram passados
-a = 'AAAAA'
-b = 'BBBBBB'
-c = 1.1
-
-string = 'b={1} a={0} a={0} c={2:.2f}'
-formato = string.format(a, b, c)
-
-print(formato) # Saída: b=BBBBBB a=AAAAA a=AAAAA c=1.10
-
+# Exemplo 6 — comparação com f-string (forma moderna)
+print(f"Meu nome é {nome} e eu tenho {idade} anos (usando f-string).")
